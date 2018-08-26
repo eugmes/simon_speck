@@ -1,0 +1,10 @@
+project Simon_Speck is
+
+   for Main use ("run_tests.adb");
+
+   package Compiler is
+      for Default_Switches ("ada") use ("-O2", "-g", "-gnaty", "-gnatwa",
+         "-gnatVa");
+   end Compiler;
+
+end Simon_Speck;
